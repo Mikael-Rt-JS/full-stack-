@@ -1,0 +1,65 @@
+.table{
+  width: 100%;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+/* убираем зазоры между таблицами */
+  border-collapse: collapse;
+/*  запрещаем перенос строк  */
+  white-space: nowrap;
+}
+.table th,.table td{
+  text-align: center;
+  padding: 10px;
+}
+.table th{
+  background: #1e88e5;
+  color: var(--col-w);
+}
+.table th:nth-child(odd){
+  background: #2196f3;
+}
+.table tr:nth-child(even){
+  background: #f5f5f5;
+}
+.table tr{
+  transition: all 0.3s;
+}
+.table tr:hover{
+  background: #ccc;
+  cursor: pointer;
+}
+.table td:not(:last-child){
+  border-right: 1px solid #ccc;
+}
+@media(max-width: 1100px){
+  .table3 tr{
+    display: block;
+    margin-bottom: 30px;
+  }.table3 th,.table3 td{
+    display: block;
+    text-align: center;
+  }.table .table3 td{
+    border-right: none;
+  }
+}
+
+.history_title_action{
+  text-align: center;
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+@media(max-width: 220px){
+  .table3 td{
+    font-size: 13px;
+  }
+  
+  .history_title_action{
+    font-size: 14px;
+  }
+}
+@media(max-width: 165px){
+  .table3 td{
+    font-size: 10px;
+    padding: 10px 3px;
+  }
+}

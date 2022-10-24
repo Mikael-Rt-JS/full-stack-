@@ -1,0 +1,179 @@
+/* 
+    color: #242424;
+
+    h3
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 13px;
+
+    settings btn
+    font-weight: 300;
+    font-size: 9px;
+    line-height: 18px;
+    text-decoration-line: underline;
+    color: #242424;
+
+    coins
+    font-size: 18px;
+
+    card description
+    color: #242424;
+    font-weight: 400;
+    font-size: 12px;
+
+    btns 
+    color: #fff;
+    background:  #00CD52;
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 5px;
+    width: 135px;
+    height: 42px;
+
+    color: #242424;
+    background:  #FECE00;
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 5px;
+
+*/
+.settings_dialog_open{
+    font-weight: 300;
+    font-size: 9px;
+    line-height: 18px;
+    text-decoration-line: underline;
+    border: none;
+    background: none;
+}
+.client_header{
+    width: 100%;
+    background: #f5f5f5;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 255px 2fr;
+    grid-column-gap: 83px;
+}
+.client_info,.buy_stocks{
+    background: rgba(106,106,106,8%);
+}
+.client_info h3,.buy_stocks h3{
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 13px;
+}
+
+.client_info{
+    grid-column: 1/2;
+    height: 242px;
+    color: #242424;
+    padding: 16px 38px;
+}
+
+.coins{
+    display: flex;
+    gap: 8px;
+    margin-top: 22px;
+    align-items: center;
+}
+.client_balance{
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 43px;
+}
+
+
+.buy_stocks{
+    height: 242px;
+    padding: 16px 38px;
+}
+.stocks_title{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.stocks_title:last-child{
+    align-items: start;
+}
+
+.card{
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    grid-row-gap: 10px;
+}
+.products_stocks{
+    display: flex;
+    justify-content: space-around;
+}
+.monet_img_cards{
+    width: 14px;
+    height: 14px;
+}
+.sell_balance{
+    font-size: 18px;
+}
+.sell_coins_gap{
+    gap: 3px;
+}
+.phone_stock{
+    position: relative;
+    width: 43px;
+    height: 43px;
+    display: block;
+}
+.phone_stock img{
+    position: absolute;
+    display: block;
+}
+.phone_stock span{
+    position: absolute;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    margin-left: 25px;
+}
+.stock_pracent{
+    width: 37px;
+    height: 18px;
+    background: #FF1A1A;
+    border-radius: 4px;
+    transform: rotate(-12.65deg);
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    margin-right: 4px;
+    display: block;
+}
+.stock_pracent p{
+    font-weight: 600;
+    padding: 1px;
+}
+.title_stock_block{
+    display: flex;
+}
+.title_stock_block h4{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+}
+.sell,.buy{
+    font-size: 14px;
+    border-radius: 5px;
+    border: none;
+    width: 135px;
+    height: 42px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.6s;
+}
+.sell{
+    color: #242424;
+    background:  #FECE00;
+}
+.buy{
+    color: #fff;
+    background:  #00CD52;
+    padding: 5px;
+
+}

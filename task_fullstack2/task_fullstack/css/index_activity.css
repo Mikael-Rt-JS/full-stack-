@@ -1,0 +1,19 @@
+.banner{
+    width: 100%;
+    margin: 20px 5px;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+}
+.banner img{
+    width: 140px;
+    height: 140px;
+    cursor: pointer;
+}
+@media (max-width: 160px){
+    .banner img{
+        width: 120px;
+        height: 120px;
+    }
+}

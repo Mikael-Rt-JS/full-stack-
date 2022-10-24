@@ -1,0 +1,42 @@
+.user_nav{
+    width: 100%;
+    height: 50px;
+    background: #000;
+    color: snow;
+    display: grid;
+    grid-template-columns: 15px 1fr 15px;
+    justify-items: end;
+    align-items: center;
+    z-index: 2;
+}
+.user_btns,.user_signin{
+    grid-column: 2/3;
+
+}
+.user_btns span{
+    margin-right: 10px;
+}
+.user_btns a,.user_signin{
+    color: snow;
+
+    border: 1px solid snow;
+    padding: 6px 20px;
+    border-radius: 5px;
+    transition: all 0.4s;
+}
+.user_signin{
+    background: none;
+    cursor: pointer;
+}
+.user_btns a:hover,.user_signin:hover{
+    color: rgb(42, 149, 198);
+    border: 1px solid rgb(42, 149, 198);
+    border-radius: 25px;
+    transition: all 0.4s;
+}
+.user_btns a:active,.user_signin:active{
+    color: rgb(42, 198, 86);
+    border: 1px solid rgb(42, 198, 86);
+    border-radius: 25px;
+    transition: all 0.4s;
+}
